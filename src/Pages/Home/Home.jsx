@@ -5,6 +5,7 @@ import HeroBanner from "../../assets/hero_banner.jpg";
 import HeroTtitle from "../../assets/hero_title.png";
 import PlayIcon from "../../assets/play_icon.png";
 import InfoIcon from "../../assets/info_icon.png";
+import MainCards from "../../Components/MainCards/MainCards";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
               <img src={InfoIcon} alt="info button icon" /> More Info
             </button>
           </div>
+          <MainCards />
         </div>
       </div>
     </div>

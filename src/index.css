@@ -67,12 +67,7 @@ h4 {
 }
 
 /* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
+
 
 /* Inherit fonts for inputs and buttons */
 input,

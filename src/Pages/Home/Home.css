@@ -6,6 +6,10 @@
   width: 100%;
   mask-image: linear-gradient(to right, transparent, black 75%);
   -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-attachment: fixed;
 }
 
 .hero-caption {
@@ -17,7 +21,7 @@
 .hero-caption-img {
   max-width: 500px;
   margin-bottom: 30px;
-  width:100%;
+  width: 100%;
 }
 
 .hero-caption p {
@@ -29,7 +33,7 @@
 .hero-buttons {
   display: flex;
   gap: 10px;
-  margin-bottom: 300px;
+  margin-bottom: 20px;
 }
 
 .hero-buttons .btn img {
@@ -58,6 +62,6 @@
   background: #ffffffbf;
   transition: 1s;
 }
-..hero-buttons .btn.dark-btn :hover{
+..hero-buttons .btn.dark-btn :hover {
   background: #6d6d6e66;
 }

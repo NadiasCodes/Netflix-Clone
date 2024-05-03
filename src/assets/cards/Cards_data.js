@@ -16,59 +16,59 @@ import card_img14 from './card14.jpg';
 const cards_data = [
     {
         image:card_img1,
-        name:"Kung Fu Panda"
+        name:"Wednesday"
     },
     {
         image:card_img2,
-        name:"Squid Game"
+        name:"Suits"
     },
     {
         image:card_img3,
-        name:"Squid Challange"
+        name:"Better Call Saul"
     },
     {
         image:card_img4,
-        name:"Jawan"
+        name:"Dark"
     },
     {
         image:card_img5,
-        name:"The Ghost"
+        name:"Breaking Bad"
     },
     {
         image:card_img6,
-        name:"Lucifer"
+        name:"Squid Games"
     },
     {
         image:card_img7,
-        name:"The Railway MEN"
+        name:"The Office"
     },
     {
         image:card_img8,
-        name:"Young Sheldon"
+        name:"Lucifer"
     },
     {
         image:card_img9,
-        name:"Sacred Games"
+        name:"The Expanse"
     },
     {
         image:card_img10,
-        name:"Adipurush"
+        name:"Alice In Boderland"
     },
     {
         image:card_img11,
-        name:"Sukhee"
+        name:"Stranger Things"
     },
     {
         image:card_img12,
-        name:"Mission Ganj"
+        name:"Vikings"
     },
     {
         image:card_img13,
-        name:"Leo"
+        name:"The Big Bang Theory"
     },
     {
         image:card_img14,
-        name:"All of Us Are Dead"
+        name:"Arcane"
     },
 ]
 
