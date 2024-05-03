@@ -52,7 +52,7 @@ const cards_data = [
     },
     {
         image:card_img10,
-        name:"Alice In Boderland"
+        name:"Dune"
     },
     {
         image:card_img11,
