@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 6%;
+  position: fixed;
+  font-size: 15px;
+  color: #e5e5e5;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 10%, transparent);
+  z-index: 1;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.navbar-left img {
+  width: 90px;
+}
+
+.navbar-left ul {
+  display: flex;
+  font-size: 16px;
+  gap: 30px;
+}
+
+.navbar-left ul li {
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar-right .icons {
+  width: 20px;
+  cursor: pointer;
+}
+.navbar-right .user-profile {
+  border-radius: 4px;
+  width: 30px;
+}
+
+.user-profile-navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar .dropdown {
+  position: absolute;
+  top: 100%;
+  right:0;
+  width: max-content;
+  background: #191919;
+
+}
