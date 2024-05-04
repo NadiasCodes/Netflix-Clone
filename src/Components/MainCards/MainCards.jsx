@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./MainCards.css";
 import cards_data from "../../assets/cards/Cards_data";
 
-const MainCards = () => {
+const MainCards = ({title, category}) => {
   const cardsRef = useRef();
   const handleWhweel = (event) => {
     event.preventDefault();
@@ -13,7 +13,7 @@ const MainCards = () => {
   }, []);
   return (
     <div className="maincards">
-      <h2>Popular on Netflix</h2>
+      <h2>{title ? title : "Popular on Netflix"}</h2>
       <div className="card-list" ref={cardsRef}>
         {cards_data.map((card, index) => {
           return (

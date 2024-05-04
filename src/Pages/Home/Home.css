@@ -63,6 +63,10 @@
   background: #ffffffbf;
   transition: 1s;
 }
-..hero-buttons .btn.dark-btn :hover {
+.hero-buttons .btn.dark-btn :hover {
   background: #6d6d6e66;
+}
+
+.more-cards{
+  padding-left:6%;
 }
