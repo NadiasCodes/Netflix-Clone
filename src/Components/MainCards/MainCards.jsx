@@ -28,7 +28,7 @@ const MainCards = ({ title, category }) => {
     cardsRef.current.addEventListener("wheel", handleWhweel);
   }, []);
   return (
-    <div className="maincards">
+    <div className="main-cards">
       <h2>{title ? title : "Popular on Netflix"}</h2>
       <div className="card-list" ref={cardsRef}>
         {apiData.map((card, index) => {

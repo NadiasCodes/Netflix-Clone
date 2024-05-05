@@ -1,9 +1,9 @@
-.maincards {
+.main-cards {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-.maincards h2 {
+.main-cards h2 {
   margin-bottom: 10px;
 }
 
@@ -33,4 +33,35 @@
   right: 10px;
   text-decoration: none;
   color:white;
+}
+
+@media (max-width: 800px){
+  .main-cards{
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .main-cards h2{
+    font-size: 20px;
+  }
+  .main-cards img{
+    width: 200px;
+  }
+  .main-cards p{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px){
+  
+
+  .main-cards h2{
+    font-size: 15px;
+  }
+  .main-cards img{
+    width: 165px;
+  }
+  .main-cards p{
+    font-size: 10px;
+  }
 }

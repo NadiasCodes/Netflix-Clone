@@ -25,3 +25,19 @@
     width:90%;
 
 }
+
+@media(max-width: 800px){
+  .player {
+  height: 50vh;
+  
+}
+
+.player img {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 30px;
+  cursor: pointer;
+}
+
+}
