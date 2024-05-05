@@ -20,7 +20,7 @@ https://net-clone-flix-react-87.vercel.app/
   
 <h2>🧐 Preview</h2>
 
-<p align="center"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/605/original/image.png?1714910896" alt="project-image"></p>
+<p align="center"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/609/original/image.png?1714911818" alt="project-image"></p>
 <p align="center"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/608/original/imasssge.png?1714911108" alt="project-image"></p>
 <p align="center"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/606/original/imfage.png?1714910908" alt="project-image"></p>
 <p align="center"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/607/original/imassssssge.png?1714911098" alt="project-image"></p>
